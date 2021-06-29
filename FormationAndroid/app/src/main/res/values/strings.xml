@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Formation Android</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="animalName">Name</string>
+    <string name="animalWeight">236</string>
+    <string name="addButton">Add</string>
+    <string name="carnivoreHerbivore">Carnivore</string>
+
 </resources>

@@ -34,7 +34,7 @@ public class SampleFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         mAddBtn = view.findViewById(R.id.addButton);
         mAddBtn.setOnClickListener(v ->requireActivity().getSupportFragmentManager().beginTransaction()
-                .add(R.id.fragment2, AnimalListFragment.class,null)
+                .replace(R.id.fragment2, AnimalListFragment.class,null)
                 .commit());
     }
 }

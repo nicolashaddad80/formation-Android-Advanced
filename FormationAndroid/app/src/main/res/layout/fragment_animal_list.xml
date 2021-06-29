@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout
+    android:id = "@+id/tableAnimaux"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TableRow tools:ignore="ExtraText" android:layout_width="match_parent">
         <TextView
-            android:id = "@+id/textView"
+        android:id = "@+id/nomAnimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Toto1"/>
+        <TextView
+            android:id = "@+id/poidAnimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Toto1"/>
+        <TextView
+            android:id = "@+id/genreAnimal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text = "Toto1"/>

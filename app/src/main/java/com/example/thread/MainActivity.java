@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         mBinding.addButton.setOnClickListener(v -> {
             getSupportFragmentManager()
         .beginTransaction()
-        .replace(R.id.clockContainer,ClockFragment.class, null, "clock")
+        .replace(R.id.clockContainer,ClockFragment.class, conf, "clock")
         .commit();
         }
         );
